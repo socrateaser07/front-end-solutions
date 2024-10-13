@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SEO meta tags -->
+        <meta name="description" content="Simple HTML website">
+        <meta name="keywords" content="portfolio, work experience, HTML, programming">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="socrateaser07">
+        <title>Contact | HTML website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="article.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+      
+        <main>
+            <section class="contact-page">
+                <h1>Contact Me:</h1>
+                <form action="process.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"
+                    placeholder="Enter your email address" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" cols="50" placeholder="Enter your message here"></textarea>
+
+                    <input type="submit" value="Send Message">
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; all rights reserved 2024</p>
+        </footer>
+    </body>
+</html>
